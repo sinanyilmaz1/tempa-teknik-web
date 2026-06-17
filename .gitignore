@@ -18,6 +18,10 @@ logs
 .fleet
 .idea
 
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
 # Local env files
 .env
 .env.*
