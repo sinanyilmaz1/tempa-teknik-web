@@ -22,7 +22,10 @@
   "devDependencies": {
     "@commitlint/cli": "^21.0.2",
     "@commitlint/config-conventional": "^21.0.2",
+    "@nuxt/eslint": "^1.16.0",
+    "eslint": "^10.5.0",
     "husky": "^9.1.7",
-    "prettier": "^3.8.4"
+    "prettier": "^3.8.4",
+    "vue-tsc": "^3.3.5"
   }
 }

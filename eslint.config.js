@@ -1,12 +1,5 @@
-import vue from 'eslint-plugin-vue'
-import vueTsConfig from '@vue/eslint-config-typescript'
-import prettier from '@vue/eslint-config-prettier'
+// @nuxt/eslint generates a Nuxt-aware flat config in .nuxt/eslint.config.mjs
+// https://eslint.nuxt.com/packages/module
+import withNuxt from './.nuxt/eslint.config.mjs'
 
-export default [
-  ...vue.configs['flat/recommended'],
-  ...vueTsConfig(),
-  prettier,
-  {
-    ignores: ['dist/', 'node_modules/', '.husky/'],
-  },
-]
+export default withNuxt()
