@@ -24,11 +24,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Prepare Nuxt
+        run: npx nuxt prepare
+
       - name: Lint
         run: npx eslint .
 
       - name: Type-check
-        run: npx vue-tsc --noEmit
+        run: npx nuxt typecheck
 
       - name: Build
         run: npm run build
