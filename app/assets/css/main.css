@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+  /* Anthracite surfaces (dark areas, boxes, cards) */
+  --color-anthracite-900: #1B1D21;
+  --color-anthracite-800: #2A2E33;
+  --color-anthracite-700: #373C42;
+
+  /* Lines & secondary text */
+  --color-steel-gray: #575D65;
+  --color-light-gray: #B6BCC3;
+
+  /* Main background */
+  --color-beyaz: #F7F8F9;
+
+  /* Accents (use sparingly) */
+  --color-tempa-blue: #1FA8FF;
+  --color-tempa-green: #8BC53F;
+
+  /* Typography scale (rem) */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+}
