@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "distributors": "Distributeurs",
+    "catalogs": "Catalogues",
+    "videos": "Vidéos",
+    "news": "Actualités et Événements",
+    "contact": "Contact"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "empty": "Rien à afficher pour le moment."
+  }
+}
