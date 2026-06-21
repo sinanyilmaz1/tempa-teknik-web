@@ -14,11 +14,9 @@ export default defineNuxtConfig({
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'tr',
-    lazy: true,
     restructureDir: 'app/locales',
     langDir: '.',
     baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
-    seo: true,
     locales: [
       { code: 'tr', name: 'Türkçe', language: 'tr-TR', file: 'tr.json' },
       { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },

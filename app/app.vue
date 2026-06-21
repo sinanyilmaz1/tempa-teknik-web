@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // Emits locale-aware SEO head tags (hreflang alternates, canonical, og:locale).
-// `seo: true` is set in nuxt.config i18n; useLocaleHead() picks it up by default.
-const i18nHead = useLocaleHead()
+// `seo` is an option of useLocaleHead (defaults to true); set explicitly here.
+const i18nHead = useLocaleHead({ seo: true })
 useHead(() => ({
   htmlAttrs: {
     lang: i18nHead.value.htmlAttrs?.lang,
