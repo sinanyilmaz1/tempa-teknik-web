@@ -15,7 +15,8 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     defaultLocale: 'tr',
     lazy: true,
-    langDir: 'locales',
+    restructureDir: 'app/locales',
+    langDir: '.',
     baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
     seo: true,
     locales: [

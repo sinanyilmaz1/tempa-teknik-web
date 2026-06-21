@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "products": "Productos",
+    "distributors": "Distribuidores",
+    "catalogs": "Catálogos",
+    "videos": "Vídeos",
+    "news": "Noticias y Eventos",
+    "contact": "Contacto"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "empty": "Nada que mostrar todavía."
+  }
+}

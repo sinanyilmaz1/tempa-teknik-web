@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "products": "Prodotti",
+    "distributors": "Distributori",
+    "catalogs": "Cataloghi",
+    "videos": "Video",
+    "news": "Notizie ed Eventi",
+    "contact": "Contatti"
+  },
+  "common": {
+    "loading": "Caricamento…",
+    "error": "Qualcosa è andato storto. Riprova.",
+    "empty": "Niente da mostrare per ora."
+  }
+}

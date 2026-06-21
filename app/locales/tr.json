@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "distributors": "Distribütörlükler",
+    "catalogs": "Kataloglar",
+    "videos": "Videolar",
+    "news": "Haber ve Etkinlikler",
+    "contact": "Bize Ulaşın"
+  },
+  "common": {
+    "loading": "Yükleniyor…",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "empty": "Henüz gösterilecek bir şey yok."
+  }
+}
