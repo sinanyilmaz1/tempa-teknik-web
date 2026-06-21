@@ -6,7 +6,7 @@
     <header class="w-full border-b border-steel-gray/20">
       <div class="mx-auto max-w-7xl px-4 py-4">
         <!-- placeholder; menu slice fills this -->
-        <div class="h-8"></div>
+        <div class="h-8"/>
       </div>
     </header>
 
@@ -21,7 +21,7 @@
     <footer class="w-full border-t border-steel-gray/20 mt-auto">
       <div class="mx-auto max-w-7xl px-4 py-6">
         <!-- placeholder; footer slice fills this -->
-        <div class="h-8"></div>
+        <div class="h-8"/>
       </div>
     </footer>
   </div>
