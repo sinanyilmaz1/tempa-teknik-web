@@ -13,7 +13,9 @@ useHead(() => ({
 </script>
 
 <template>
-  <NuxtLayout name="main-layout">
-    <NuxtPage />
-  </NuxtLayout>
+  <UApp>
+    <NuxtLayout name="main-layout">
+      <NuxtPage />
+    </NuxtLayout>
+  </UApp>
 </template>
