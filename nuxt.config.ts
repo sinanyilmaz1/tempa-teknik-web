@@ -4,8 +4,14 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxt/eslint', '@nuxtjs/i18n'],
+  modules: ['@pinia/nuxt', '@nuxt/eslint', '@nuxtjs/i18n', '@nuxt/ui'],
   css: ['~/assets/css/main.css'],
+  // Tempa brand is a fixed identity, not a user light/dark toggle.
+  // Lock to a single mode; dark surfaces come from brand tokens, not color-mode dark.
+  colorMode: {
+    preference: 'light',
+    fallback: 'light',
+  },
   runtimeConfig: {
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL || 'http://localhost:1337',
