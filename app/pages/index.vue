@@ -4,7 +4,8 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="min-h-[60vh] flex items-center justify-center">
+  <div class="min-h-[60vh] flex flex-col items-center justify-center gap-4">
     <p class="text-steel-gray">{{ t('menu.home') }}</p>
+    <UButton color="primary">Test</UButton>
   </div>
 </template>
