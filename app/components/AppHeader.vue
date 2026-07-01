@@ -29,7 +29,11 @@ const localePath = useLocalePath()
         orientation="horizontal"
         variant="link"
         highlight
-        :ui="{ link: 'after:h-0.5' }"
+        :ui="{
+          link: 'after:h-0.5',
+          viewport: 'bg-anthracite-700 ring-steel-gray/30',
+          childLink: 'hover:before:bg-anthracite-800',
+        }"
       />
 
       <div class="flex items-center gap-2">
