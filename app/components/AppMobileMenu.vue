@@ -3,7 +3,12 @@ const { items } = useMenu()
 const open = ref(false)
 // close drawer on navigation
 const route = useRoute()
-watch(() => route.fullPath, () => { open.value = false })
+watch(
+  () => route.fullPath,
+  () => {
+    open.value = false
+  },
+)
 </script>
 
 <template>
